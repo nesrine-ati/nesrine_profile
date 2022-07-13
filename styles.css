@@ -1,0 +1,249 @@
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoLight';
+    src: url(fonts/Roboto-Light.ttf);
+    font-weight: light;
+}
+:root {
+    /* colors */
+    --dark: #1f2937;
+    --white: #f9faf8;
+    --white-secon: #e5e7eb;
+    --blue: #3882fb;
+    /* font-size */
+    --large: 48px;
+    --medium: 36px;
+    --small: 24px;
+    --smaller: 18px;
+}
+* {
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 0 15%;
+
+}
+header {
+    width: 100%;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+
+}
+li {
+    margin-left: 20px;
+    color: var(--white-secon);
+    font-size: var(--smaller);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+button {
+    border: none;
+    background-color: var(--blue);
+    color: var(--white);
+    width: 150px;
+    font-size: var(--smaller);
+    padding: 5px 0;
+    border-radius: 8px;
+}
+.dark-bg {
+    background-color: var(--dark);
+}
+.dark-bg img {
+    border-radius: 100px;
+}
+.gray-bg {
+    background-color: var(--white-secon);
+}
+#navbar {
+    display: flex;
+    color: var(--white);
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+#profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 100px 0;
+}
+#profil article {
+    height: 320.84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 26px;
+}
+#profil img {
+    width: 475px;
+    height: auto;
+}
+#profil h2 {
+    color: white;
+    font-size: var(--large);
+    width: 400px;
+    font-weight: 800;
+}
+#profil p {
+    color: var(--white-secon);
+    font-size: var(--smaller);
+}
+#inf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 250px 80px 250px;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.heading h2 {
+    font-size: var(--large);
+    color: var(--dark);
+}
+#inf article {
+    display: flex;
+    flex-direction: row;
+
+}
+#inf figure {
+    width: 150px;
+    margin-right: 40px;
+    border-radius: 10px;
+
+}
+#inf figcaption {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}
+#inf img {
+    width: 150px;
+    height: auto;
+    border: solid blue 3px;
+    border-radius: 10px;
+}
+#quotes {
+    padding: 90px 290px 90px 290px;
+    color: black;
+}
+#quotes p {
+    font-family: 'RobotoLight', sans-serif;
+    font-weight: 600;
+    
+}
+#quotes span {
+    float: right;
+    font-weight: 800;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+#signup {
+    padding: 70px 200px 70px 200px;
+}
+#signup article {
+    background: var(--blue);
+    padding: 40px 90px;
+    display: flex;
+    border-radius: 10px;
+    color: var(--white);
+}
+.signup__btn {
+    border: var(--white) 2px solid;
+}
+
+/*contact part */
+#contact {
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact_details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact_details p {
+    margin-bottom: 8px;
+}
+#contact h3 {
+    font-size: var(--medium);
+    margin-bottom: 8px;
+}
+.contact__address p {
+    margin-bottom: 5px;
+}
+#table__section {
+    margin-bottom: 50px;
+}
+#range__table {
+    padding: 25px 0;
+}
+#range__table tr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#range__table td {
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+#range__table img {
+    height: auto;
+    width: 350px;
+    border: solid var(--blue) 3px;
+    border-radius: 10px;
+}
+.services {
+    font-size: var(--small);
+    font-weight: 600;
+}
+/*you will found it in all pages */
+
+.home__btn {
+    font-weight: 600;
+    color: var(--dark);
+}
+
+/*about page */
+#about__sec {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+#about__sec article {
+    margin-bottom: 50px;
+}
+#about__sec img {
+    border: solid var(--blue) 2px;
+    border-radius: 5px;
+    position: center;
+    margin-bottom: 50px;
+}
+
+#about__sec p {
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+footer {
+    color: var(--white);
+    padding: 25px 0;
+    
+}
